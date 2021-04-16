@@ -33,3 +33,4 @@ variable "common_tags" {
     Environment = "development"
   }
 }
+

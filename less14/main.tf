@@ -1,6 +1,3 @@
-
-
-
 provider "aws" {
   region = var.region
 }
@@ -21,7 +18,6 @@ resource "aws_eip" "my_static_ip" {
   //tags     = var.common_tags
   tags = merge(var.common_tags, { Name = "${var.common_tags["Environment"]} Server IP" })
 
-
 }
 
 
@@ -31,6 +27,7 @@ resource "aws_instance" "my_server" {
   instance_type          = var.instance_type
   vpc_security_group_ids = [aws_security_group.my_server.id]
   monitoring             = var.enable_detailed_monitoring
+  user_data = file("user_data.sh")
 
   tags = merge(var.common_tags, { Name = "${var.common_tags["Environment"]} Server Build by Terraform" })
 
