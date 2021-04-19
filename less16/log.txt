@@ -1,0 +1,6 @@
+John Mark Donald
+Terraform START: Fri 16 Apr 2021 04:24:34 PM +06
+172.31.16.4
+John Mark Donald
+Terraform START: Fri 16 Apr 2021 04:48:30 PM +06
+172.31.20.49
