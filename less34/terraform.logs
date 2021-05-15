@@ -1,0 +1,4 @@
+2021/05/15 18:12:24 [INFO] Terraform version: 0.13.3  
+2021/05/15 18:12:24 [INFO] Go runtime version: go1.14.7
+2021/05/15 18:12:24 [INFO] CLI args: []string{"/usr/bin/terraform", "init"}
+2021/05/15 18:12:24 [INFO] CLI command args: []string{"init"}
