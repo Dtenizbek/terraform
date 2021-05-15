@@ -6,8 +6,6 @@
 # terraform refresh
 #
 # terraform console
-#  base64encode("Hello from Doelert Tenizbek!")
-#  base64decode("SGVsbG8gZnJvbSBEZW5pcyBBc3RhaG92IQ==")
 #  sha256("Hello")
 #  keys({Name="David", City="Vanocuver", Position="DevOps Engineer",  YOB = 1977})
 #  values({Name="David", City="Vancouver", Position="DevOps Engineer",  YOB = 1977})
